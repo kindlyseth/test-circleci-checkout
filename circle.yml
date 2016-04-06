@@ -1,6 +1,6 @@
 checkout:
   post:
-    mv -v failed worked
+    - mv -v failed worked
 
 test:
   override:
