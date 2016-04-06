@@ -1,0 +1,7 @@
+checkout:
+  post:
+    mv -v failed worked
+
+test:
+  override:
+    test -f worked
