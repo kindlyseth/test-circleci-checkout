@@ -4,4 +4,4 @@ checkout:
 
 test:
   override:
-    test -f worked
+    - test -f worked
